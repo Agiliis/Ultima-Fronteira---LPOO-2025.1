@@ -14,8 +14,8 @@ public class Personagem {
     public Personagem(String nome, Ambiente localizacaoInicial) {
         this.nome = nome;
         this.vida = 100;
-        this.fome = 0;
-        this.sede = 0;
+        this.fome = 100;
+        this.sede = 100;
         this.energia = 100;
         this.sanidade = 100;
         this.localizacao = localizacaoInicial;
